@@ -54,14 +54,16 @@ function App() {
   const [guesses, setGuesses] = useState<string[]>(() => {
     const loaded = loadGameStateFromLocalStorage()
     if (loaded?.solution !== solution) {
+      setIsInfoModalOpen(true)
       return []
     }
     const gameWasWon = loaded.guesses.includes(solution)
     if (gameWasWon) {
       setIsGameWon(true)
-    }
-    if (loaded.guesses.length === 6 && !gameWasWon) {
+    } else if (loaded.guesses.length === 6) {
       setIsGameLost(true)
+    } else {
+      setIsInfoModalOpen(true)
     }
     return loaded.guesses
   })
