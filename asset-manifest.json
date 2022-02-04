@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://dcwarwick.github.io/placeble/static/css/main.46ed55b5.css",
-    "main.js": "https://dcwarwick.github.io/placeble/static/js/main.86de2b99.js",
+    "main.js": "https://dcwarwick.github.io/placeble/static/js/main.a45aa1e3.js",
     "static/js/787.4607d238.chunk.js": "https://dcwarwick.github.io/placeble/static/js/787.4607d238.chunk.js",
     "index.html": "https://dcwarwick.github.io/placeble/index.html",
     "main.46ed55b5.css.map": "https://dcwarwick.github.io/placeble/static/css/main.46ed55b5.css.map",
-    "main.86de2b99.js.map": "https://dcwarwick.github.io/placeble/static/js/main.86de2b99.js.map",
+    "main.a45aa1e3.js.map": "https://dcwarwick.github.io/placeble/static/js/main.a45aa1e3.js.map",
     "787.4607d238.chunk.js.map": "https://dcwarwick.github.io/placeble/static/js/787.4607d238.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46ed55b5.css",
-    "static/js/main.86de2b99.js"
+    "static/js/main.a45aa1e3.js"
   ]
 }
